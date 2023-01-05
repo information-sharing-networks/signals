@@ -6,7 +6,7 @@ TBD
 
 ## Overarching protocol
 
-A higher level protocol from which more specific instances will be derived.
+TBD - A higher level protocol from which more specific instances will be derived.
 
 ## Implementations
 
