@@ -3,10 +3,25 @@
 [Use Cases](#use-cases) |
 [Interop examples](#interop-examples)
 
-# Definitons
-## What are Signals?
+TODO:  all the below is up for discussion - please can you help improve it?
 
-TBD
+# Definitions
+## What are Signals?
+Signals are simple messages that can be exchanged between organisations to indicate that an action has been taken or that something has been decided or agreeed upon.
+
+The original idea arose in the field of border controls where the absence of a standard way to exchange this type of message means that important about the sgoods movements is not shared with other organisations that could use the data to make the movement quicker, cheaper or more reliable.
+
+
+**dictionary definitions**
+
+> Noun: 'anything agreed upon or understood as the occasion for concerted action'
+
+> Adjective: 'unusual; notable; outstanding'
+
+> Verb: 'to communicate or make known by a signal'
+
+> 'The fundamental quantity of representing some information'.
+
 
 ## Why Signals?
 Signals are an attempt to resolve some of the limitations with the traditional declaration-based mechanism for exchanging information between businesses and government:
