@@ -1,11 +1,11 @@
 # Signals
 
-## Definition
+# What are Signals?
 
 TBD
 
 
-## Why Signals?
+# Why Signals?
 Signals are an attempt to resolve some of the limitations with the traditional declaration-based mechanism for exchanging information between trader and government:
 
 *Declarations* 
@@ -23,3 +23,21 @@ Signals are proposed as a complement to, rather than replacement for, the existi
 ## Implementations
 
 - [Border signals protocol](https://github.com/information-sharing-networks/border-signals)
+
+
+# other interop examples
+other interop implemenations to use or borrow/learn from:
+
+borders
+* [DCSA event subscription](https://app.swaggerhub.com/apis/dcsaorg/DCSA_EBL/2.0.0-Beta-2#/Shipping%20Instructions/get_v2_shipping_instructions__shippingInstructionReference_) approach (webhook)  
+* NOTN (discussion pending)
+* Data Pipelines/waypoints:  [UNCEFACT Data Pipeline White Paper](https://unece.org/fileadmin/DAM/cefact/GuidanceMaterials/WhitePaperDataPipeline_Eng.pdf).  EU sponsored research: [Cassandra](https://cordis.europa.eu/project/id/261795) & [CORE](http://www.coreproject.eu/resources.aspx?filter=6073)
+
+Finance
+* FIX - electronic trading  - very simple, pre web, well adopted but possible challenges around multiple dialects
+* PSD2 (c.f open banking exchange)  provision of payment services , interesting because (EU) legislation-lead
+
+Industry led examples
+* [OpenTravel](https://opentravel.org/) - does not appear to be a web based presence for the spec, but available on request.
+* [OpenReferral](https://openreferraluk.org/about-standard) - local council data exchange 
+* [GTFS](https://github.com/google/transit/tree/master/gtfs-realtime/spec/en) - public transportation (an example feed - from Connecticut Department of Transportation - is hosted on the [Ably hub](https://ably.com/hub/cttransit/gtfsr)
