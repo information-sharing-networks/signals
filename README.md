@@ -9,7 +9,7 @@ TODO:  all the below is up for discussion - please can you help improve it?
 ## What are Signals?
 Signals are simple messages that can be exchanged between organisations to indicate that an action has been taken or that something has been decided or agreeed upon.
 
-The original idea arose in the field of border controls where the absence of a standard way to exchange this type of message means that important about the sgoods movements can be difficult to share with other organisations that might use the data to make the movement quicker, cheaper or more reliable.
+With signals insight is moved (the result of deploying expertise over raw data) not the raw data itself. This has many benefits.
 
 
 **dictionary definitions**
