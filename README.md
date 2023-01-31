@@ -39,14 +39,14 @@ Signals are proposed as a complement to, rather than replacement for, the existi
 
 ## Use Cases
 1.  A supply chain participant conducts some form of due dilligence on a movement of goods and would like to share the outcome with other organisations in the supply chain (including government agencies working at the border)
-2.  a trader moving goods under a customs procedure that does not require a pre-lodged customs declaration would like to take advantage of a new (fictional!) scheme being trialled by the government where traders that supply a 10 digit commodity code in advance of goods moving into the country can get an early warning of any checks and inspections that might delay the goods leaving the port.  The commodity
+2.  A trader moving goods under a customs procedure that does not require a pre-lodged customs declaration would like to take advantage of a new (fictional!) scheme being trialled by the government where traders that supply a 10 digit commodity code in advance of goods moving into the country can get an early warning of any checks and inspections that might delay the goods leaving the port.  The commodity
    code must be supplied when the goods leave the port of departure and will be shared with several government departments.
 2. The government wants to alert traders about inspection decisions detailing which consignment has been selected and where the inspection will take place.
 
 ## What are the features of a well designed signal?
 - Signals permit organisations to minimise information share volume while maximising the sharing of expertise
 - Signals are typically self contained - they usually do not require additional out of band information to be made available
-- Signals reduce the need for complex ontologies and reduce semantics leaking over boundaries due to heir more precise/targetted deisgn and footprint
+- Signals reduce the need for complex ontologies and reduce semantics leaking over boundaries due to their more precise/targetted deisgn and footprint
 - Signals may be anonymous/opaque - identity of the producer/provider may be omitted
 - Signals permit consuming parties to make their own minds up on whether and how to use them for example whether aggregation or corroboration are necessary
 - Signals may move bi-directionally between any number of entities participating in a network
