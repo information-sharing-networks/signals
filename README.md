@@ -33,7 +33,7 @@ Signals are an attempt to resolve some of the limitations with the traditional d
 *Signals*
 * Signals intended to be light-weight, with simple payloads and a straightforward version control system. This means it will be less expensive to experiment with new types of information exchange and that signals can be revised, or new signals added, without disrupting existing implementations 
 * Signals can be delivered as soon as a corresponding event occurs in the originating business process.  We believe this will allow new workflows to be created based on actual business timings rather than the deadlines set by the government.
-* Signals can go in any direction (including from government > trade and trade > trade), creating the potential for feedback loops that are difficult to create with the current declaration processes.
+* Signals can move in any direction (including from government > trade and trade > trade), creating the potential for feedback loops that are difficult to create with the current declaration processes.
 
 Signals are proposed as a complement to, rather than replacement for, the existing declaration systems.
 
