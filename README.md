@@ -22,7 +22,7 @@ With signals insight is moved (the result of deploying expertise over raw data) 
 
 > 'The fundamental quantity of representing some information'.
 
-## Why Signals?
+## Why Signals? (The problems we are solving)
 Signals are an attempt to resolve some of the limitations with the traditional declaration-based mechanism for exchanging information between businesses and government:
 
 *Declarations* 
