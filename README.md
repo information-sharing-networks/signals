@@ -31,7 +31,7 @@ Signals are an attempt to resolve some of the limitations with the traditional d
 * Deadlines for delivering declarations are based on government needs rather than the business processes that generate the data, making it inconvenient to implement submission solutions.
 
 *Signals*
-* Signal messages are intended to be light-weight, simple documents with a straightforward version control system. This means it will be less expensive to experiment with new types of information exchange and that signals can be revised, or new signals added, without disrupting existing implementations 
+* Signal messages are intended to be light-weight, simple payloads with a straightforward version control system. This means it will be less expensive to experiment with new types of information exchange and that signals can be revised, or new signals added, without disrupting existing implementations 
 * Signals can be delivered as soon as a corresponding event occurs in the originating business process.  We believe this will allow new workflows to be created based on actual business timings rather than the deadlines set by the government.
 * Signals can go in any direction (including from government > trade and trade > trade), creating the potential for feedback loops that are difficult to create with the current declaration processes.
 
@@ -63,7 +63,7 @@ Signals are proposed as a complement to, rather than replacement for, the existi
 
 TODO
 * What elements and attributes are needed to define a signal?
-* Should we specify a minimum data set, or constrain the data set to a set number of elements in order to prevent documents bloating to the extetnt they hae the same type of problems as traditional declaration exchange mechnaims?
+* Should we specify a minimum data set, or constrain the data set to a set number of elements in order to prevent documents bloating to the extent they have the same type of problems as traditional declaration exchange mechnaims?
 
 # Protocl (wip)
 
