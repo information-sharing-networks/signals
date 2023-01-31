@@ -43,7 +43,7 @@ Signals are proposed as a complement to, rather than replacement for, the existi
    code must be supplied when the goods leave the port of departure and will be shared with several government departments.
 2. The government wants to alert traders about inspection decisions detailing which consignment has been selected and where the inspection will take place.
 
-## what are the features of well designed signal?
+## What are the features of a well designed signal?
 - Signals permit organisations to minimise information share volume while maximising the sharing of expertise
 - Signals are typically self contained - they usually do not require additional out of band information to be made available
 - Signals reduce the need for complex ontologies and reduce semantics leaking over boundaries due to heir more precise/targetted deisgn and footprint
