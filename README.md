@@ -37,6 +37,9 @@ Signals are an attempt to resolve some of the limitations with the traditional d
 
 Signals are proposed as a complement to, rather than replacement for, the existing declaration systems.
 
+## Indicative signals diagram
+![Signals diagram](resources/EoT-signals-indicative-flow.png)
+
 ## Use Cases
 1.  A supply chain participant conducts some form of due dilligence on a movement of goods and would like to share the outcome with other organisations in the supply chain (including government agencies working at the border)
 2.  A trader moving goods under a customs procedure that does not require a pre-lodged customs declaration would like to take advantage of a new (fictional!) scheme being trialled by the government where traders that supply a 10 digit commodity code in advance of goods moving into the country can get an early warning of any checks and inspections that might delay the goods leaving the port.  The commodity
