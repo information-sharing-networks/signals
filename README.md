@@ -65,11 +65,11 @@ TODO
 * What elements and attributes are needed to define a signal?
 * Should we specify a minimum data set, or constrain the data set to a set number of elements in order to prevent documents bloating to the extent they have the same type of problems as traditional declaration exchange mechnaims?
 
-# Protocl (wip)
+# A protocol implementation (WIP)
 
 - [Border signals protocol](https://github.com/information-sharing-networks/border-signals)
 
-# other interop examples
+# Other interop examples
 other interop implemenations to use or borrow/learn from:
 
 borders
