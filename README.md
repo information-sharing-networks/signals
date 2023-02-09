@@ -35,7 +35,7 @@ Signals are an attempt to resolve some of the limitations with the traditional d
 * Signals can be delivered as soon as a corresponding event occurs in the originating business process.  We believe this will allow new workflows to be created based on actual business timings rather than the deadlines set by the government.
 * Signals can move in any direction (including from government > trade and trade > trade), creating the potential for feedback loops that are difficult to create with the current declaration processes.
 
-Signals are proposed as a complement to, rather than replacement for, the existing declaration systems.
+Signals are proposed as a complement to, rather than replacement for, the existing declaration systems. Signals are designed to uplift and transport key events from inside the various systems of record being operated by industry and to capture expertise being deployed over the information inside them. They are not designed or intended to transport the body of supply chain data held in those systems or record.
 
 ## Indicative signals diagram
 ![Signals diagram](resources/EoT-signals-indicative-flow.png)
