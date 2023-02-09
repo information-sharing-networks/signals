@@ -66,7 +66,7 @@ Signals are proposed as a complement to, rather than replacement for, the existi
 
 TODO
 * What elements and attributes are needed to define a signal?
-* Should we specify a minimum data set, or constrain the data set to a set number of elements in order to prevent documents bloating to the extent they have the same type of problems as traditional declaration exchange mechnaims?
+* Should we specify a minimum data set, or constrain the data set to a set number of elements in order to prevent documents bloating to the extent they have the same type of problems as traditional declaration exchange mechanisms?
 
 # A protocol implementation (WIP)
 
