@@ -80,14 +80,14 @@ A non exhaustive starter for ten.
 }
 ```
 
-- [1]: An instant from which the signal should be considered valid
-- [2]: An instant at which the signal should be expired and removed from operational surfaces; dashboards etc
-- [3]: A priority indicating how important the signal is (various swappable systems for this will be necessary)
-- [4]: A possibly composite matching construct which relates the signal to information in a consortium EoT instance system
-- [5]: A unique identifier which lets all actors using and adding to a signal understand they are operating on the same signal (traces through workflows)
-- [6]: Category used to indicate what kind of signal is being transmitted _or_ if the signal is uplifted from a specific trade or other recognised event
-- [7]: A simple name to represent the signal where it is placed adjacent to others (human readable and meaningful)
-- [8]: A more meaningful and full explanation of the signal's purpose (to be disdovered how meaning may be encoded into this)
+- 1: An instant from which the signal should be considered valid
+- 2: An instant at which the signal should be expired and removed from operational surfaces; dashboards etc
+- 3: A priority indicating how important the signal is (various swappable systems for this will be necessary)
+- 4: A possibly composite matching construct which relates the signal to information in a consortium EoT instance system
+- 5: A unique identifier which lets all actors using and adding to a signal understand they are operating on the same signal (traces through workflows)
+- 6: Category used to indicate what kind of signal is being transmitted _or_ if the signal is uplifted from a specific trade or other recognised event
+- 7: A simple name to represent the signal where it is placed adjacent to others (human readable and meaningful)
+- 8: A more meaningful and full explanation of the signal's purpose (to be disdovered how meaning may be encoded into this)
 
 TODO
 * Should we specify a minimum data set, or constrain the data set to a set number of elements in order to prevent documents bloating to the extent they have the same type of problems as traditional declaration exchange mechanisms?
