@@ -6,12 +6,8 @@
 TODO:  all the below is up for discussion - please can you help improve it?
 
 ## What are Signals?
-Signals are simple messages that can be exchanged between organisations to indicate that an action has been taken or that something has been decided or agreeed upon.
 
-With signals insight is moved (the result of deploying expertise over raw data) not the raw data itself. This has many benefits.
-
-
-**dictionary definitions**
+### Dictionary definitions
 
 > Noun: 'anything agreed upon or understood as the occasion for concerted action'
 
@@ -20,6 +16,12 @@ With signals insight is moved (the result of deploying expertise over raw data) 
 > Verb: 'to communicate or make known by a signal'
 
 > 'The fundamental quantity of representing some information'.
+
+### Signal definition
+
+Signals are simple messages that can be exchanged between organisations to indicate that an action has been taken or that something has been decided or agreeed upon.
+
+With signals insight is moved (the result of deploying expertise over raw data) not the raw data itself. This has many benefits.
 
 ## Why Signals? (The problems we are solving)
 Signals are an attempt to resolve some of the limitations with the traditional declaration-based mechanism for exchanging information between businesses and government:
