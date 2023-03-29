@@ -61,7 +61,7 @@ With signals insight is moved (the result of deploying expertise over raw data) 
   :correlationId "734713bc04" [4]
   :category "positive-profile" [5]
   :object "organisation-a.my-example.xyz" [6]
-  :predicate "adding to ISN" [7]
+  :predicate "joins ISN XYZ" [7]
 }
 ```
 
@@ -87,7 +87,7 @@ This is a simple and encapsulated signal - but not very useful.
   :correlationId "734713bc04"
   :category "a-useful-category"
   :object "organisation-a.my-example.xyz"
-  :predicate "adding to ISN"
+  :predicate "joins ISN XYZ"
   :providerId "804e851b-9ab4-40d6-b995-765f64104072" [3]
   :workflowMappingFieldA "9ab4-40d6" [4]
 }
@@ -96,6 +96,12 @@ This is a simple and encapsulated signal - but not very useful.
 - 2: **System provided** the instant in time a signal expires and will no longer be surfaced in operational contexts
 - 3: **Upstream system or user provided** a mapping construct that lets us associate a signal with information in an upstream system
 - 4: **User provided** Any number of mapping constructs can be provided to make a signal useful in consumer workflows (or downstream processes)
+
+*How might these signals look when sufaced e.g. on a dashboard?*
+
+- organisation-a.my-example.xyz joins ISN XYZ
+- organisation-b.my-example.xyz joins ISN XYZ
+- ...
 
 
 ## Further links
