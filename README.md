@@ -73,6 +73,31 @@ With signals insight is moved (the result of deploying expertise over raw data) 
 - 6: **User provided** A simple name to represent the signal where it is placed adjacent to others (human readable and meaningful)
 - 7: **User provided** A more meaningful and full explanation of the signal's purpose (when combined with the object creates a single sentence much like those that are part of an event log describing what is happening over time e.g. Git messages)
 
+This is a simple and encapsulated signal - but not very useful.
+
+*A more detailed (useful) example*
+
+```clojure
+{
+  :provider "organisation-a.my-example.xyz"
+  :start "2023-03-17T22:51:51.379676Z" [1]
+  :end "2023-03-18T18:00:00Z" [2]
+  :published "2023-03-16T22:51:51.379072Z"
+  :signalId "704e851a-9ab4-40d6-b995-765f64104072"
+  :correlationId "734713bc04"
+  :category "a-useful-category"
+  :object "organisation-a.my-example.xyz"
+  :predicate "adding to ISN"
+  :providerId "804e851b-9ab4-40d6-b995-765f64104072" [3]
+  :workflowMappingFieldA "9ab4-40d6" [4]
+}
+```
+- 1: **System provided** (TBC) we are thinking on this one - could be e.g. an ETA or could be the moment in time the signal is valid from
+- 2: **System provided** the instant in time a signal expires and will no longer be surfaced in operational contexts
+- 3: **Upstream system or user provided** a mapping construct that lets us associate a signal with information in an upstream system
+- 4: **User provided** Any number of mapping constructs can be provided to make a signal useful in consumer workflows (or downstream processes)
+
+
 ## Further links
 
 [Specific problems we are solving](https://github.com/information-sharing-networks/signals/blob/main/problems-we-are-solving.md)
