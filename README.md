@@ -23,29 +23,11 @@ Signals are simple messages that can be exchanged between organisations to indic
 
 With signals insight is moved (the result of deploying expertise over raw data) not the raw data itself. This has many benefits.
 
-## Why Signals? (The problems we are solving)
-Signals are an attempt to resolve some of the limitations with the traditional declaration-based mechanism for exchanging information between businesses and government:
+## Why Signals? (General problems we are solving)
 
-*Declarations* 
-* Declarations, licence applications notifications etc tend to be large, complex, documents that require complex software to generate and consume.  Changes to the data and associated systems are very disruptive and can take years to complete.
-* Declarations are primarily organised for one-way communication (trade to government)
-* Deadlines for delivering declarations are based on government needs rather than the business processes that generate the data, making it inconvenient to implement submission solutions.
-
-*Signals*
 * Signals are light-weight, with simple payloads and a straightforward version control system. This means it will be less expensive to experiment with new types of information exchange and that signals can be revised, or new signals added, without disrupting existing implementations 
-* Signals can be delivered as soon as a corresponding event occurs in the originating business process.  We believe this will allow new workflows to be created based on actual business timings rather than the deadlines set by the government.
-* Signals can move in any direction (including from government > trade and trade > trade), creating the potential for feedback loops that are difficult to create with the current declaration processes.
-
-Signals are proposed as a complement to, rather than replacement for, the existing declaration systems. Signals are designed to uplift and transport key events from inside the various systems of record being operated by industry and to capture expertise being deployed over the information inside them. They are not designed or intended to transport the body of supply chain data held in those systems or record.
-
-## Indicative signals diagram
-![Signals diagram](resources/EoT-signals-indicative-flow.png)
-
-## Use Cases
-1.  A supply chain participant conducts some form of due dilligence on a movement of goods and would like to share the outcome with other organisations in the supply chain (including government agencies working at the border)
-2.  A trader moving goods under a customs procedure that does not require a pre-lodged customs declaration would like to take advantage of a new (fictional!) scheme being trialled by the government where traders that supply a 10 digit commodity code in advance of goods moving into the country can get an early warning of any checks and inspections that might delay the goods leaving the port.  The commodity
-   code must be supplied when the goods leave the port of departure and will be shared with several government departments.
-2. The government wants to alert traders about inspection decisions detailing which consignment has been selected and where the inspection will take place.
+* Signals can be delivered as soon as a corresponding event occurs in the originating business process.  We believe this will allow new workflows to be created based on actual business timings rather than any arbitrary cadence imposed by parties who are collaborating in information exchange
+* Signals can move in any direction multilaterally, creating the potential for feedback loops that are difficult to create with current information units
 
 ## What are the features of a well designed signal?
 - Signals permit organisations to minimise information share volume while maximising the sharing of expertise
@@ -90,13 +72,6 @@ A non exhaustive starter for ten.
 - 6: Category used to indicate what kind of signal is being transmitted _or_ if the signal is uplifted from a specific trade or other recognised event
 - 7: A simple name to represent the signal where it is placed adjacent to others (human readable and meaningful)
 - 8: A more meaningful and full explanation of the signal's purpose (to be disdovered how meaning may be encoded into this)
-
-TODO
-* Should we specify a minimum data set, or constrain the data set to a set number of elements in order to prevent documents bloating to the extent they have the same type of problems as traditional declaration exchange mechanisms?
-
-## A protocol implementation (WIP)
-
-- [Border signals protocol](https://github.com/information-sharing-networks/border-signals)
 
 ## Other interop examples
 other interop implemenations to use or borrow/learn from:
