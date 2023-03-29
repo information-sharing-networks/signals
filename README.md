@@ -49,29 +49,29 @@ With signals insight is moved (the result of deploying expertise over raw data) 
 
 ## Which elements and attributes are needed to define a signal?
 
-A non exhaustive starter for ten.
+### V0.1.0
+
+*The simplest possible signal*
 
 ```clojure
 {
-  :start "2022-03-01T09:00:00.000Z" [1]
-  :end "2023-03-31T17:30:00.000Z" [2]
-  :priority 5 [3]
-  :matching-construct "1c002dd4b5" [4]
-  :correlation-id "734713bc04" [5]
-  :category "positive-profile" [6]
-  :name "Structurally damaged container lorem ipsum" [7]
-  :description "The container is caved in - environmental housing destroyed lorem ipsum" [8]
+  :provider "organisation-a.my-example.xyz" [1]
+  :published "2023-03-16T22:51:51.379072Z" [2]
+  :signalId "704e851a-9ab4-40d6-b995-765f64104072" [3]
+  :correlationId "734713bc04" [4]
+  :category "positive-profile" [5]
+  :object "organisation-a.my-example.xyz" [6]
+  :predicate "adding to ISN" [7]
 }
 ```
 
-- 1: An instant from which the signal should be considered valid
-- 2: An instant at which the signal should be expired and removed from operational surfaces; dashboards etc
-- 3: A priority indicating how important the signal is (various swappable systems for this will be necessary)
-- 4: A possibly composite matching construct which relates the signal to information in a consortium EoT instance system
-- 5: A unique identifier which lets all actors using and adding to a signal understand they are operating on the same signal (traces through workflows)
-- 6: Category used to indicate what kind of signal is being transmitted _or_ if the signal is uplifted from a specific trade or other recognised event
-- 7: A simple name to represent the signal where it is placed adjacent to others (human readable and meaningful)
-- 8: A more meaningful and full explanation of the signal's purpose (to be disdovered how meaning may be encoded into this)
+- 1: **System provided usually** The signal provider (all signals are contributed into an Information Sharing Network (ISN) by a site on behalf of an organisation)
+- 2: **System provided** The instant in time a signal is published into an ISN
+- 3: **System provided** A unique identifier which makes this signal distinct
+- 4: **System provided** A unique identifier which lets all actors using and adding to a signal understand they are operating on the same signal (traces through workflows)
+- 5: **User provided** Category used to indicate what kind of signal is being transmitted _or_ if the signal is uplifted from a specific trade or other recognised event
+- 6: **User provided** A simple name to represent the signal where it is placed adjacent to others (human readable and meaningful)
+- 7: **User provided** A more meaningful and full explanation of the signal's purpose (when combined with the object can be used as a single line which is part of an event log describing what is happening over time)
 
 ## Other interop examples
 other interop implemenations to use or borrow/learn from:
