@@ -4,8 +4,6 @@
 [Specification](#specification) |
 [Interop examples](#other-interop-examples)
 
-TODO:  all the below is up for discussion - please can you help improve it?
-
 ## What are Signals?
 
 ### Dictionary definitions
