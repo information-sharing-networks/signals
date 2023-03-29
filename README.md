@@ -73,6 +73,10 @@ With signals insight is moved (the result of deploying expertise over raw data) 
 - 6: **User provided** A simple name to represent the signal where it is placed adjacent to others (human readable and meaningful)
 - 7: **User provided** A more meaningful and full explanation of the signal's purpose (when combined with the object creates a single sentence much like those that are part of an event log describing what is happening over time e.g. Git messages)
 
+## Further links
+
+[Specific problems we are solving](https://github.com/information-sharing-networks/signals/blob/main/problems-we-are-solving.md)
+
 ## Other interop examples
 other interop implemenations to use or borrow/learn from:
 
