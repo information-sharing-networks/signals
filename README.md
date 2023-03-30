@@ -64,13 +64,13 @@ With signals insight is moved (the result of deploying expertise over raw data) 
 }
 ```
 
-- 1: **System provided usually** The signal provider (all signals are contributed into an Information Sharing Network (ISN) by a site on behalf of an organisation)
+- 1: **System provided usually** The signal provider (all signals are contributed into an [Information Sharing Network (ISN)](https://github.com/information-sharing-networks/.github/blob/main/glossary.md#information-sharing-network-isn) by a site on behalf of an organisation)
 - 2: **System provided** The instant in time a signal is published into an ISN
 - 3: **System provided** A unique identifier which makes this signal distinct
 - 4: **System provided** A unique identifier which lets all actors using and adding to a signal understand they are operating on the same signal (traces through workflows)
-- 5: **User provided** Category used to indicate what kind of signal is being transmitted _or_ if the signal is uplifted from a specific trade or other recognised event
-- 6: **User provided** A simple name to represent the signal where it is placed adjacent to others (human readable and meaningful)
-- 7: **User provided** A more meaningful and full explanation of the signal's purpose (when combined with the object creates a single sentence much like those that are part of an event log describing what is happening over time e.g. Git messages)
+- 5: **Optional - user provided** Category used to indicate what kind of signal is being transmitted _or_ if the signal is uplifted from a specific trade or other recognised event
+- 6: **Required - user provided** A simple name to represent the signal where it is placed adjacent to others (human readable and meaningful)
+- 7: **Required - user provided** A more meaningful and full explanation of the signal's purpose (when combined with the object creates a single sentence much like those that are part of an event log describing what is happening over time e.g. Git messages)
 
 This is a simple and encapsulated signal - but not very useful.
 
