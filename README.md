@@ -52,6 +52,8 @@ With signals insight is moved (the result of deploying expertise over raw data) 
 
 *The simplest possible signal*
 
+N.B. we are using Extensible Data Notation to outline signal structure here to simplify signal presentation - implementations of the protocol will present signals in a number of formats including JSON.
+
 ```clojure
 {
   :provider "organisation-a.my-example.xyz" [1]
