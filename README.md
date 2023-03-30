@@ -93,8 +93,8 @@ This is a simple and encapsulated signal - but not very useful.
 ```
 - 1: **System provided** (TBC) we are thinking on this one - could be e.g. an ETA or could be the moment in time the signal is valid from
 - 2: **System provided** the instant in time a signal expires and will no longer be surfaced in operational contexts
-- 3: **Upstream system or user provided** a mapping construct that lets us associate a signal with information in an upstream system
-- 4: **User provided** Any number of mapping constructs can be provided to make a signal useful in consumer workflows (or downstream processes)
+- 3: **Optional - upstream system or user provided** a mapping construct that lets us associate a signal with information in an upstream system
+- 4: **Optional - user provided** Any number of mapping constructs can be provided to make a signal useful in consumer workflows (or downstream processes)
 
 *How might these signals look when sufaced e.g. on a dashboard?*
 
