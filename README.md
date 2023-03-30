@@ -25,8 +25,8 @@ With signals insight is moved (the result of deploying expertise over raw data) 
 ## Why Signals? (General problems we are solving)
 
 * Signals are light-weight, with simple payloads and a straightforward version control system. This means it will be less expensive to experiment with new types of information exchange and that signals can be revised, or new signals added, without disrupting existing implementations 
-* Signals can be delivered as soon as a corresponding event occurs in the originating business process.  We believe this will allow new workflows to be created based on actual business timings rather than any arbitrary cadence imposed by parties who are collaborating in information exchange
-* Signals can move in any direction multilaterally, creating the potential for feedback loops that are difficult to create with current information units
+* Signals can be delivered as soon as a corresponding event occurs in the originating business process.  We believe this will allow new workflows to be created based on actual business timings rather than an arbitrary schedule set by government
+* Signals can move in any direction, creating the potential for feedback loops that are difficult to create with the traditional declaration-based approaches
 
 ## What are the features of a well designed signal?
 - Signals permit organisations to minimise information share volume while maximising the sharing of expertise
