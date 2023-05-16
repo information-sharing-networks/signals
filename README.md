@@ -32,7 +32,7 @@ With signals insight is moved (the result of deploying expertise over raw data) 
 - Signals permit organisations to minimise information share volume while maximising the sharing of expertise
 - Signals are typically self contained - they usually do not require additional out of band information to be made available
 - Signals reduce the need for complex ontologies and reduce semantics leaking over boundaries due to their more precise/targetted deisgn and footprint
-- Signals may be anonymous/opaque - identity of the producer/provider may be omitted
+- Signals may be anonymous/opaque - identity of the producer/provider and detail of the due diligence behind any insight may be omitted
 - Signals permit consuming parties to make their own minds up on whether and how to use them for example whether aggregation or corroboration are necessary
 - Signals may move bi-directionally between any number of entities participating in a network
 - A signal is typically not a large footprint of raw information
