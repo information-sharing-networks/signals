@@ -34,7 +34,7 @@ With signals insight is moved (the result of deploying expertise over raw data) 
 - Signals reduce the need for complex ontologies and reduce semantics leaking over boundaries due to their more precise/targetted deisgn and footprint
 - Signals may be anonymous/opaque - identity of the producer/provider and detail of the due diligence behind any insight may be omitted
 - Signals permit consuming parties to make their own minds up on whether and how to use them for example whether aggregation or corroboration are necessary
-- Signals may move bi-directionally between any number of entities participating in a network
+- Signals may move bi-directionally between any number of actors participating in a network
 - A signal is typically not a large footprint of raw information
 
 ## What data should be contained in a signal?
