@@ -89,13 +89,13 @@ This is a simple and encapsulated signal - but not very useful.
   :category "a-useful-category"
   :object "organisation-a.my-example.xyz"
   :predicate "joins ISN XYZ"
-  :providerId "804e851b-9ab4-40d6-b995-765f64104072" [3]
+  :providerMapping {:id "804e851b-9ab4-40d6-b995-765f64104072"} [3]
   :workflowMappingFieldA "9ab4-40d6" [4]
 }
 ```
 - 1: **System provided** (TBC) we are thinking on this one - could be e.g. an ETA or could be the moment in time the signal is valid from
 - 2: **System provided** the instant in time a signal expires and will no longer be surfaced in operational contexts
-- 3: **Optional - upstream system or user provided** a mapping construct that lets us associate a signal with information in an upstream system
+- 3: **Optional - upstream system or user provided** a mapping construct that lets us associate a signal with information in an upstream system through a number of identity related fields
 - 4: **Optional - user provided** Any number of mapping constructs can be provided to make a signal useful in consumer workflows (or downstream processes)
 
 *How might these signals look when sufaced e.g. on a dashboard?*
