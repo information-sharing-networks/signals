@@ -48,9 +48,9 @@ With signals insight is moved (the result of deploying expertise over raw data) 
 
 ## Specification
 
-### V0.1.1
+**V0.2.0**
 
-#### The simplest possible signal
+### Example 1 - The simplest possible signal
 
 N.B. we are using Extensible Data Notation to outline signal structure here to simplify signal presentation - implementations of the protocol will present signals in a number of formats including JSON.
 
@@ -76,7 +76,7 @@ N.B. we are using Extensible Data Notation to outline signal structure here to s
 
 This is a simple and encapsulated signal - but not very useful.
 
-#### A more detailed (useful) example
+### Example 2 - A more detailed (useful) example
 
 ```clojure
 {
@@ -98,6 +98,27 @@ This is a simple and encapsulated signal - but not very useful.
 - 1: **System provided** (TBC) we are thinking on this one - could be e.g. an ETA or could be the moment in time the signal is valid from
 - 2: **System provided** the instant in time a signal expires and will no longer be surfaced in operational contexts
 - 3: **Optional - upstream system or user provided** a mapping construct that lets us associate a signal with information in an upstream system (which has directly provided it) through a number of identity related fields
+
+### Example 3 - A signal and its metadata which is associated to a payload of information in a given domain
+
+```clojure
+{
+  :provider "organisation-a.my-example.xyz"
+  :start "2024-01-10T16:51:51.379676Z"
+  :end "2024-01-20T18:00:00Z"
+  :published "2024-01-08T12:51:51.379072Z"
+  :signalId "704e851a-9ab4-40d6-b995-765f64104072"
+  :correlationId "734713bc04"
+  :category "a-useful-category"
+  :object "organisation-a.my-example.xyz"
+  :predicate "joins ISN XYZ"
+  :payload {
+    :cnCode "a-cn-code"
+    :countryCode "GB"
+  } [1]
+}
+```
+- 1: **Optional - upstream system or user provided** a map of key value pairs capturing any required domain related information. E.G. associating the metadata in a signal to moving goods in the supply chain
 
 *How might these signals look when sufaced e.g. on a dashboard?*
 
