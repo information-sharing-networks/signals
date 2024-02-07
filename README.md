@@ -60,7 +60,7 @@ N.B. we are using Extensible Data Notation to outline signal structure here to s
   :published "2023-03-16T22:51:51.379072Z" [2]
   :signalId "704e851a-9ab4-40d6-b995-765f64104072" [3]
   :correlationId "734713bc04" [4]
-  :category "positive-profile" [5]
+  :category #{"isn-membership-update" "isn-a.info-sharing.network"} [5]
   :object "organisation-a.my-example.xyz" [6]
   :predicate "joins ISN XYZ" [7]
 }
@@ -70,7 +70,7 @@ N.B. we are using Extensible Data Notation to outline signal structure here to s
 - 2: **System provided** The instant in time a signal is published into an ISN
 - 3: **System provided** A unique identifier which makes this signal distinct
 - 4: **System provided** A unique identifier which lets all actors using and adding to a signal understand they are operating on the same signal (traces through workflows)
-- 5: **Optional - user provided** Category used to indicate what kind of signal is being transmitted _or_ if the signal is uplifted from a specific trade or other recognised event
+- 5: **Required - user provided** Category used to indicate both which ISN the signal pertains to and what kind of signal is being transmitted (_or_ if the signal is uplifted from a specific trade or other recognised event) - both are required
 - 6: **Required - user provided** A simple name to represent the signal where it is placed adjacent to others (human readable and meaningful)
 - 7: **Required - user provided** A more meaningful and full explanation of the signal's purpose (when combined with the object creates a single sentence much like those that are part of an event log describing what is happening over time e.g. Git messages)
 
@@ -86,7 +86,7 @@ This is a simple and encapsulated signal - but not very useful.
   :published "2023-03-16T22:51:51.379072Z"
   :signalId "704e851a-9ab4-40d6-b995-765f64104072"
   :correlationId "734713bc04"
-  :category "a-useful-category"
+  :category #{"isn-membership-update" "isn-a.info-sharing.network"}
   :object "organisation-a.my-example.xyz"
   :predicate "joins ISN XYZ"
   :providerMapping {
@@ -109,7 +109,7 @@ This is a simple and encapsulated signal - but not very useful.
   :published "2024-01-08T12:51:51.379072Z"
   :signalId "704e851a-9ab4-40d6-b995-765f64104072"
   :correlationId "734713bc04"
-  :category "a-useful-category"
+  :category #{"isn-membership-update" "isn-a.info-sharing.network"}
   :object "organisation-a.my-example.xyz"
   :predicate "joins ISN XYZ"
   :payload {
