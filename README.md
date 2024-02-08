@@ -60,7 +60,7 @@ N.B. we are using Extensible Data Notation to outline signal structure here to s
   :published "2023-03-16T22:51:51.379072Z" [2]
   :signalId "704e851a-9ab4-40d6-b995-765f64104072" [3]
   :correlationId "734713bc04" [4]
-  :category #{"isn-membership-update" "isn-a.info-sharing.network"} [5]
+  :category #{"isn-membership-participant-update" "isn-a.info-sharing.network"} [5]
   :object "organisation-a.my-example.xyz" [6]
   :predicate "joins ISN XYZ" [7]
 }
@@ -86,7 +86,7 @@ This is a simple and encapsulated signal - but not very useful.
   :published "2023-03-16T22:51:51.379072Z"
   :signalId "704e851a-9ab4-40d6-b995-765f64104072"
   :correlationId "734713bc04"
-  :category #{"isn-membership-update" "isn-a.info-sharing.network"}
+  :category #{"isn-membership-participant-update" "isn-a.info-sharing.network"}
   :object "organisation-a.my-example.xyz"
   :predicate "joins ISN XYZ"
   :providerMapping {
@@ -109,7 +109,7 @@ This is a simple and encapsulated signal - but not very useful.
   :published "2024-01-08T12:51:51.379072Z"
   :signalId "704e851a-9ab4-40d6-b995-765f64104072"
   :correlationId "734713bc04"
-  :category #{"isn-membership-update" "isn-a.info-sharing.network"}
+  :category #{"isn-membership-participant-update" "isn-a.info-sharing.network"}
   :object "organisation-a.my-example.xyz"
   :predicate "joins ISN XYZ"
   :payload {
