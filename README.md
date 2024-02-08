@@ -120,7 +120,7 @@ This is a slightly more involved example. It is based on an actual signal indica
   } [1]
 }
 ```
-- 1: **Optional - upstream system or user provided** a map of key value pairs capturing any required domain related information. E.G. associating the metadata in a signal to moving goods in the supply chain. Note it is a combination of the isn category (isn@sample-isn.my-example.xyz) and the domain category which determines what the payload will be. It is important that the payload honours the contract for this combination of categories by being backwards compatible (e.g. fields may be added to it but not removed or renamed, this may result in the need to use new categories continuing to pass old unused categories).
+- 1: **Optional - upstream system or user provided** a map of key value pairs capturing any required domain related information. E.G. associating the metadata in a signal to moving goods in the supply chain. Note it is a combination of the isn category (isn@sample-isn.my-example.xyz) and the domain category which determines what the payload will be. It is important that the payload honours the contract for this combination of categories by being backwards compatible (e.g. fields may be added to it but not removed or renamed, this may result in the need to use new key/value pairs withi the payload while continuing to pass old unused key/value pairs).
 
 *How might these signals look when sufaced e.g. on a dashboard?*
 
